@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+}
+p{
+    color: blue;
+    background-color: yellow;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 24px;
+}
+div,section{
+    
+    background-color: blueviolet;
+}
+ol,ul{
+    margin-left: 20px; 
+}
+#id_h3{
+    border: 1px,solid,red;
+}
+#id_ol_li2{
+    border: 1px,solid,black;
+}
+#id_footer_span{
+    border: 1px,solid,gold;
+}
+.highlight {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+div > span{
+    color: rgb(0, 2, 128);
+}
+ul>li{
+    color:rgb(255, 255, 255) ;
+}
+h2+p{
+    font-weight: bold;
+}
+h1~p{
+    background-color: cadetblue;
+}
+a{
+    background-color:crimson;
+}
+input{
+    border: 2px solid blue;
+}
+a[target="_blank"]{
+    background-color:greenyellow ;
+}
+.table{
+    border: 1px solid lawngreen;
+    border-collapse: collapse; 
+    text-align: center;
+    width: 200px;
+
+    
+
+}
+tr,td{
+    border: 1px solid lawngreen;
+}
+
+table tr:nth-child(even) {
+    background-color: gold;
+}
+body *:not(main *) {
+    background-color: lightgray;
+}
+
+.user_card{
+    width: 300px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+.user_card img{
+    width: 200px;
+    height: 200px;
+    
+    border: 3px solid blue;
+    
+}
+.user_card h1{
+    color: red;
+}
+.user_card h1:hover{
+    color: blueviolet;
+    font-size: 2rem;
+}
+.user_card p::first-line{
+    color: white;
+
+}
+.user_card button:hover{
+    border: 2px solid red;
+    font-size: 20px;
+    background-color:green;
+    cursor:zoom-in;
+}
+nav > ul > li  {
+    font-weight: bold; 
+    color: #000;
+}
+nav ul ul > li  {
+    font-style: italic; 
+}
+nav button{
+   margin-left: 43px;
+}
+nav button:hover{
+    border: 2px solid red;
+    font-size: 20px;
+    background-color:green;
+    cursor:zoom-in;
+    
+}
